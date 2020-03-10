@@ -24,7 +24,7 @@ def transform_validate(province, gender):
     else:
         raise
     log = []
-    # setting up the number of splits to perform for the transformation
+    # setting up the number of splits to perform on the original file
     num_arr = int(check.shape[0] / 2247)
     # error codes
     blank_out = ["...", "..", "F", "x"]
